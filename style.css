@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width: 100%;
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    background: #0030CF;
+    background: linear-gradient(to right, #0030CF 0%, #CF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-links{
+    margin: 10px 0;
+    text-align: center;
+}
