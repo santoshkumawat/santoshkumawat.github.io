@@ -1,8 +1,3 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
 a{
     text-decoration: none;
 }
@@ -35,4 +30,14 @@ hr{
 .social-links{
     margin: 10px 0;
     text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+    .main-container{
+        width:100% !important;
+    }
+
+    .heading{
+        font-size: 36px;
+    }
 }
